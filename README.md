@@ -1,73 +1,29 @@
-# Welcome to your Lovable project
+Gestion de Stock et Facturation en Python
 
-## Project info
+Description :
+Ce projet est un logiciel simple de gestion de stock et de facturation, développé en Python avec la librairie Pandas pour la manipulation des données. Il permet aux petites entreprises de suivre facilement leurs produits, gérer les ventes et générer des factures, tout en automatisant la mise à jour du stock.
 
-**URL**: https://lovable.dev/projects/231f8987-c8a6-4e54-a788-e6c093991f4f
+Fonctionnalités principales :
 
-## How can I edit this code?
+Ajouter, modifier et supprimer des produits dans le stock.
 
-There are several ways of editing your application.
+Créer des factures pour les clients avec calcul automatique du total.
 
-**Use Lovable**
+Mettre à jour le stock après chaque vente.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/231f8987-c8a6-4e54-a788-e6c093991f4f) and start prompting.
+Sauvegarder les données dans des fichiers CSV pour persistance.
 
-Changes made via Lovable will be committed automatically to this repo.
+Afficher le stock et les factures existants.
 
-**Use your preferred IDE**
+Interface simple en console pour une utilisation facile.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Technologies utilisées :
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Python 3
 
-Follow these steps:
+Pandas
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+CSV pour stockage des données
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/231f8987-c8a6-4e54-a788-e6c093991f4f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Objectif :
+Faciliter la gestion des produits et des ventes pour les petites entreprises, réduire les erreurs de saisie et automatiser le suivi des stocks et des factures.
