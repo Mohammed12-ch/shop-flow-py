@@ -19,11 +19,10 @@ Interface simple en console pour une utilisation facile.
 
 Technologies utilisées :
 
-Python 3
+Python 3, Pandas
 
-Pandas
+HTML5, CSS3
 
-CSV pour stockage des données
+CSV ou base de données légère pour stockage
 
-Objectif :
-Faciliter la gestion des produits et des ventes pour les petites entreprises, réduire les erreurs de saisie et automatiser le suivi des stocks et des factures.
+(Optionnel) Flask pour la liaison back-end / front-enda gestion des produits et des ventes pour les petites entreprises, réduire les erreurs de saisie et automatiser le suivi des stocks et des factures.
