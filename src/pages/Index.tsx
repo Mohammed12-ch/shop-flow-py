@@ -1,13 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from 'react';
+import Layout from '@/components/Layout';
+import Dashboard from '@/components/Dashboard';
+import ProductManager from '@/components/ProductManager';
+import InvoiceManager from '@/components/InvoiceManager';
 
 const Index = () => {
+  const [currentPage, setCurrentPage] = useState('dashboard');
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case 'products':
+        return <ProductManager />;
+      case 'invoices':
+        return <InvoiceManager />;
+      default:
+        return <Dashboard />;
+    }
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <Layout currentPage={currentPage} onPageChange={setCurrentPage}>
+      {renderPage()}
+    </Layout>
   );
 };
 
